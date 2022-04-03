@@ -1,0 +1,16 @@
+[GENERAL]
+tickspeed = 3
+instrument_ids = PHILIPS_A PHILIPS_B
+max_position = 250
+max_orders = 400
+max_delta = 40
+
+[STRATEGY]
+arbmin = 0.2
+create_new_level = true
+levels = 25
+level_volume = 2
+cancellation_tolerance = 2
+
+
+[ORDERS]
